@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+   <header>
+    <h1>VANILA JS</h1>
+   </header>
+   
+   <main>
+    <div id="photo">
+        <img id="lampada" onmouseenter="ligarLuz()" onmouseleave="desligarLuz()" ondblclick="quebrarLuz()" src="img/desligada.jpg" alt="">
+    </div>
+
+    <div class="buttons">
+        <button onclick="ligarLuz()" id="bnt_ligar" class="button">
+            Ligar
+        </button>
+
+        <button onclick="desligarLuz()" id="bnt_Desligar" class="button">
+            Desligar
+        </button>
+
+    </div>
+   </main>
+</body>
+<script src="index.js"></script>
+</html>
